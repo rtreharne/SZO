@@ -1,0 +1,240 @@
+\documentclass[final,5p,times]{elsarticle}
+%\documentclass[preprint]{elsarticle}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{lineno}
+\usepackage{amssymb}
+%\usepackage{epstopdf}
+%\usepackage{makecell}
+%\usepackage{ctable}
+\biboptions{sort&compress}
+\journal{Sol. Energy Mat. Sol Cells}
+%\usepackage{hyperref}
+\usepackage{xcolor}
+
+
+
+
+%\linespread{1.5}
+\begin{document}
+
+\begin{frontmatter}
+
+
+\title{Non-parabolicity, band gap re-normalisation and carrier scattering in Si doped ZnO}
+\author[label1]{R. E. Treharne\corref{cor1}}
+\cortext[cor1]{Corresponding author}
+\ead{R.Treharne@liverpool.ac.uk}
+\author[label1]{L. J. Phillips}
+\author[label1]{K. Durose}
+\address[label1]{Stephenson Institute for Renewable Energy, University of Liverpool, UK}
+\author[label2]{A. D. Weerakkody}
+\author[label2]{I. Z. Mitrovic}
+\author[label2]{S. Hall}
+\address[label2]{Department of Electrical Eng. and Electronics, University of Liverpool, UK}
+
+\begin{abstract}
+A combinatorial methodology, developed for the rapid optimisation of sputtered transparent conducting oxides, is applied to Si doped ZnO. A wide range of composition are explored over a single sample to determine an optimum composition, with respect to the minimisation of resistivity, of $x=0.65\%$ wt. SiO$_2$. A fundamental investigation of the conduction band non-parabolicity yields values of $m_{e0}=0.35m_0$ and $C=0.3$ eV$^{-1}$ for the conduction band minimum effective mass and the non-parabolicity factor respectively. Further analysis of extracted band gap values with respect to dopant concentration provides an estimate of the magnitude of re-normalization effects. Finally, a model is proposed to describe the carrier transport behaviour for a degenerate polycrystalline semiconductor by accounting for the tunnelling of carriers through grain boundaries.
+\end{abstract}
+
+
+\begin{keyword}
+zinc oxide, magnetron sputtering, thin-film, doping, non-parabolicity, band gap normalisation
+\end{keyword}
+
+\end{frontmatter}
+
+%\linenumbers
+
+\newpage
+\section{Introduction}
+
+Polycrystalline ZnO films have received significant attention in recent years. They can be degenerately doped, typically by incorporating group III (e.g. Al, Ga or In \cite{Minami2005}) or group VII (e.g. F \cite{Gordon1991, Treharne2010}, Cl \cite{Lincot2009}) elements to achieve resistivities of the order $10^{-4}$ $\Omega$.cm, while maintaining a high optical transparency ($>80\%$). Such ZnO based transparent conducting oxide (TCO) films, most notably Al doped ZnO (AZO), are now used extensively within thin-film photovoltaic technologies (namely CIGS, CZTS and CdTe) and have widely replaced the use of indium based TCOs. A wide range of deposition techniques have been demonstrated for ZnO films including atomic layer deposition (ALD) \cite{Chalker2013}, metal-organic chemical vapour deposition (MOCVD) \cite{Myong1997}, pulsed laser deposition (PLD) \cite{Shin2006} and magnetron sputtering \cite{Minami2005, Minami2006, Ellmer2001}. 
+
+They key property of a TCO is its resistivity, which in the context of thin-film PV, should be as low as possible. Film transmittance will generally remain high over the visible wavelength range for a wide range of resistivities, except in the case of exceptionally high free carrier concentrations (i.e $>10^{21}$ cm$^2$), and so is of secondary concern experimentally The most common approach to minimising a TCO's resistivity is to generate large sample sets over which a single experimental parameter (e.g. pressure, temperature, composition)  is varied incrementally. Such investigations are time consuming and the experimental consistency from sample to sample can be poor due uncontrollable drifts in other associated deposition parameters. Furthermore, even for large sample sets the relationship determined between the resultant film properties and the deposition conditions can often be ambiguous. This is particularly true for resistivity which is highly sensitive and can vary on the scale of several orders of magnitude for a very narrow range of composition.
+
+In this work, a combinatorial methodology is developed for the study of TCO materials and demonstrated in the case Si doped ZnO (SZO). The approach eliminates the need for large sample sets and generates results that are highly consistent and reliable. We demonstrate how the methodology can be used to investigate fundamental properties of the material, namely conduction band non-parabolicity and band gap re-normalization, as well as more empirical relationships such as the compositional dependence of electrical properties. Furthermore, the consideration of a grain boundary limited scattering mechanism to describe the observed transport behaviour in SZO leads to the proposal of an extension to the current theory to apply in the case of degenerately doped polycrystalline films.
+
+
+\section{Experimental Methods}
+
+Films were deposited via RF magnetron sputtering using an AJA Phase II-J Orion system. The system was configured in a `sputter-up' geometry with the substrate being suspended above two separate ceramic targets of ZnO and SiO$_2$ arranged off-centre and tilted at $5^{\circ}$ towards the centre of the substrate.  Soda-lime glass substrates (OptiWhite$^{TM}$, NSG Pilkington) of size $100\times100\times4$ mm$^{3}$ were cleaned by scrubbing with a nylon brush and a series of de-ionized water and isopropanol alcohol rinses followed by blow drying with a nitrogen gas jet. During deposition the ZnO and SiO$_2$ targets were sputtered from simultaneously using powers of $150$ W and $50$ W respectively. A growth pressure of $2.7\times10^{-3}$ mbar Ar was used during deposition. The substrate temperature was maintained at $350\pm5^{\circ}$C during growth and the substrate was kept static with respect to the magnetrons (i.e the substrate was not rotated). Deliberate gradients of both thickness and composition were therefore incorporated across the resultant film to generate a `combinatorial' sample. A second film of pure SiO$_{2}$ was deposited under identical conditions (but without ZnO) to generate a reference film for estimating the \% wt. profile of SiO$_{2}$ in the co-sputtered combinatorial sample.
+
+A Shimadzu UV-Vis-IR 3700 spectrophotometer with mapping capability was used to measure the transmittance of the co-sputtered film over the range 250 - 2500 nm. 289 spectra were taken in total at 5 mm increments over the full sample surface. At each of these 289 points the sheet resistance was also measured using a CMT-SR2000 4-point probe mapping system. Following transmittance and sheet resistance measurements the sample was cut into one hundred $10\times10$ mm$^2$ pieces. A selection of these pieces, 10 in total, were further scribed into four $5\times5$ mm$^2$ sections and Hall measurement were performed on each of these sections. Hall measurements were performed with custom built equipment, provided by Semimetrics Ltd., using a field strength of 0.8 T.  Ellipsometry was performed on the same sections using a Woollam M2000-UI system. Ellipsometry was also used to map the thickness profile of the pure SiO$_{2}$ reference film.
+
+\section{Results}\label{sec:2}
+
+\subsection{Fitting of optical spectra}\label{sec:2.1}
+
+Figure \ref{fig:1} shows a typical transmittance spectra taken from a single point on the combinatorial ZnO:Si sample and the corresponding fit achieved using a theoretical model of the material's dielectric permittivity $\varepsilon(\omega)$. Full details of this model are given in \cite{Treharne2012}. The key components of the model include: 1) a Lorentzian oscillator to account for the behaviour of the system's bound electrons and to provide a smoothly varying dielectric background over the range of interest ($250-2500$ nm), 2) an extended Drude model \cite{Mergel2002}, to characterise the system's free electron response, and 3) an inter-band transition model to account for the steep increase in the material's absorption coefficient in the vicinity of its direct band gap ($3.3 - 3.4$ eV). The two key parameters extractable from the dielectric model are the film's thickness, $d$, and plasma frequency, $\omega_{p}$, which is related directly to the carrier concentration according to
+\begin{equation}
+\label{eqn:1}
+\omega_p = \sqrt{\frac{n_e e^2}{m_e\varepsilon_{\infty} \varepsilon_0}}
+\end{equation}
+where $m_e$ is the effective electrons (expressed in units of the free electron mass, $m_0$), $\varepsilon_{\infty}$ is the material's high frequency relativity permittivity  ($\sim 8.3$ for single crystal ZnO \citep{Ashkenov2003}) and $\varepsilon_0$ is the permittivity of free space. Note that as $\varepsilon_{\infty}$ is not known for the specific sample, the combined product $\varepsilon^{1/1}\omega_p$ is extracted as a single parameter from the model and here-in the term `plasma frequency' refers to this product. The optical dispersion for the material, i.e. refractive index $n$ and extinction coefficient $\kappa$, is also extracted from the fitting procedure and the spectra are shown in the inset of figure \ref{fig:1}.
+\begin{figure}[ht]
+\centering
+\includegraphics[width = \columnwidth]{figure1.png}
+\caption{\label{fig:1} Example of a typical tranmittance curve taken from a single point on the combinatorial ZnO:Si sample. The line (\textcolor{red}{\textbf{--}}) shows the corresponding fit generated by the dielectric model \cite{Treharne2012}. An excellend fit is achieved at wavelengths in the vicinity of plasma edge, i.e $>1000$ nm. The band to band transition component of the model is insufficinent to accurately describe the behaviour in the vicinity of the material's direct band gap. In this instance, values of $d= 518 \pm 10$ nm, $\varepsilon_{\infty}^{1/2}\omega_p = 0.97 \pm 0.02$ eV and $E_{G} = 3.38 \pm 0.04$ eV were extracted from the fitting procedure. The inset also shows the dispersion relationships for $n$ and $\kappa$ extracted by the model.}
+\end{figure}
+
+Fitting was achieved by using a Nelder-Mead downhill simplex algorithm \cite{Nelder1965}, implemented via python script, to minimize the quantity
+\begin{equation}
+\chi^{2} = \sum_{i}^N\sqrt{\frac{y_i - O_i}{N^2}}
+\end{equation}\label{eqn:2}
+where $N$ is the total number of data points in the spectra, $O_i$ the observed transmittance at each wavelength over the range of interest, and $y_i$ the theoretical transmittance calculated using the transfer matrix method \cite{Macleod1986} for a single thin-film on a finite, transparent substrate.  The fitting algorithm was iterated until the relative fractional change in consecutive $\chi^2$ values was less than $1\times10^{-6}$. The fitting of all 289 transmittance spectra taken over the combinatorial sample was fully automated, the only user input required being an initial estimate of film thickness at the point of the first spectrum. This automation ensured that the fitting of consecutive spectra was highly consistent. For all spectra, $\chi^2$ values of $<2$ were achieved indicating that all fits were as successful as that shown in figure \ref{fig:1}.
+
+It was not possible to extract values for the true optical band-gap $E_G$ from the inter-band transition component of the model which relied on a simple $\alpha\propto(E-E_G)^{1/2}$ dependence to describe the behaviour in the vicinity of the band edge. All values of $E_G$ were typically $\sim 0.2-0.4$ eV lower than expected (even once non-parabolicity and re-normalisation effects had been accounted for, see sections ~\ref{sec:2.2} and \ref{sec:2.3}).  This is due to the presence of a population of impurity states located in energy just below the bottom of the conduction band. The presence of these states generate a broadening, commonly referred to as an `Urbach tail' \cite{Urbach1953}, in the onset of the absorption coefficient. It is very difficult to determine the extent of this broadening by fitting the dielectric model to a single transmittance spectra. The use of variable angle ellipsometry permitted a more reliable extraction of the band gap values due to the requirement that the fitting procedure satisfied multiple spectra simultaneously.
+
+For each point over the combinatorial sample ellipsometric spectra were taken at angles of 65 and 70$^{\circ}$ with respect to a plane normal to the sample surface. The spectra were and fitted using a parameterized semi-conductor (PSEMI-M0) model \cite{Paulson1998} over the range $350 - 1000$ nm. Figure \ref{fig:2}b shows a typical fit achieved by the model and the inset shows the differenice in the $\alpha^2$ versus $E$ behaviour extracted from transmittance and ellipsometry data respectively. This disparity between band gaps extracted from the two techniques is in good agreement with that reported previously by Srikant \cite{Srikant1998} in ZnO.
+\begin{figure}[bt]
+\centering
+\includegraphics[width = 1\columnwidth]{figure_0.png}
+\caption{\label{fig:2} a) Ellipsometric spectra ($\Psi$ and $\Delta$), measured at separate angles of $65^{\circ}$ and $70^{\circ}$, were fitted over the range 3 eV (413 nm) to 4 eV (309 nm) using a single PSEMI-M0 oscillator \cite{Paulson1998, Johs1999}, b) The corresponding absorption coefficient extracted from the ellipsometric data compared with that extracted from the spectrophotometric data (\ref{fig:1}). A difference in the direct band gap of $\sim0.3$ eV is determined between the two optical extraction methods. The ellipsometric model is deemed to be more reliable due to its ability to account for the Urbach tail that arises from a distribution of impurtity states located just below the bottom of the conduction band.}
+\end{figure}
+
+\subsection{ Conduction band non-parabolicity}
+\label{sec:2.2}
+\begin{figure}[ht]
+\centering
+\includegraphics[width = 1\columnwidth]{figure3b.png}
+\caption{\label{fig:3} Carrier concentration, $n_e^H$, determined via Hall effect measurements versus values of $(\varepsilon_{\infty}\omega_p)^2$ extracted from the dielectric modeling of transmittance data. A Monte-Carlo style fitting procedure \cite{Mendelsberg2009, Anders2012} indicates that the relationship between the axes is non-linear, as expected for a material with a non-parabolic conduction band. The spread in uncertainty associated with the fitting procedure is shown by the yellow line. The corresponding relationship between the carrier effective mass, $m_e$ and the carrier concentration is shown in the inset. Values of $m_{e0}=0.35 \pm 0.02$ $m_{0}$ and $C = 0.30 \pm 0.01$ eV$^{-1}$ were extracted from the analysis.}
+\end{figure}
+For highly doped metal-oxides it has been shown that the conduction band, $E_c$, is `non-parabolic' and that the origin of this non-parabolicity may be attributed to a carrier dependent effective mass, $m_e(n_e)$. The functional form of this dependence, first suggested by Pisarkiewicz \textit{et. al} \cite{Pisarkiewicz1990}, is given by
+\begin{equation}
+\label{eqn:3}
+m_e(n_e) = m_{e0}\sqrt{1+\frac{2C\hbar^2k}{m_{e0}}}
+\end{equation}
+where $m_{e0}$ is the value of the effective mass at the conduction band minimum and $C$ is the non-parabolicity factor, expressed in eV$^{-1}$. The carrier wave-number can be expressed in terms of the carrier concentration according to $k = (3\pi^2n_e)^{1/3}$. By re-examining equation \ref{eqn:1} it is clear that the relationship between $\omega_p^2$ and $n_e$ becomes non-linear if the effective mass is not a constant. Figure \ref{fig:3} shows a plot of $\omega_{p}$, extracted from the spectrophotometry measurements, versus the carrier concentration, $n_e^H$, determined via Hall measurements, for the sample subset cut from the original combinatorial sample. A similar $\chi^2$ minimization procedure to that described in section \ref{sec:2.1}, in which the fitting parameters were $m_{e0}$ and $C$, was applied to the data set using
+\begin{equation}\label{eqn:4}
+\chi^2 = \sum_{i=1}^n\frac{(n_{e_i}^S-n_{e_i}^H)^2}{n^2}
+\end{equation}
+where the superscript $S$ corresponds to carrier concentrations calculated, using a carrier dependent effecitve mass $m_e(n_e)$ (equations ~(\ref{eqn:1}) a \ref{eqn:3}), from the spectroscopically determined plasma frequencies. The superscript $H$ denotes values of $n_e$ determined directly via Hall measurements. To determine the uncertainty associated with the fitted $m_{e0}$ and $C$ values a Monte-Carlo style error treatment \cite{Mendelsberg2009} was implemented within which the $\chi^2$ minimization procedure was performed 1000 times. The inset plot in figure \ref{fig:3} shows the mean $m_e(n_e)$ relationship (solid line) and the corresponding spread (yellow line). An average extracted value of $m_{e0} = 0.35\pm0.02m_0$ is higher than previous published values of $0.24 - 0.28 m_0$ for the effective mass in undoped ZnO. An average extracted value of $C=0.30\pm0.01$ eV agrees very well with previously reported values of $\sim0.29$ ev$^{-1}$ \cite{Ruske2009, Ellmer2001} for Al doped ZnO films.
+
+\subsection{ Band-gap renormalization}
+\label{sec:2.3}
+
+The optical band gap of a degenerately doped metal-oxide system increases as a function of carrier concentration (Burstein-Moss shift \cite{Burstein1954,Moss1954} according to
+\begin{equation}
+\label{eqn:5}
+E_G = E_{G0} + \frac{\hbar^2(3\pi^2n_e)^{2/3}}{2m_{JDOS}}
+\end{equation}
+where$E_{G0}$ is the band-gap at the conduction band minimum and the joint density of states effective mass, $m_{JDOS}$ is given as
+\begin{equation}
+\label{eqn:6}
+\frac{1}{m_{JDOS}} = \frac{1}{m_h}+\frac{1}{m_e(n_e)}
+\end{equation}
+A constant hole effective mass value of $m_h = 0.7m_0$ \cite{Beni1979, Reynolds1996} is assumed throughout this work. Note that the non-parabolicity of the conduction band is accounted for when estimating the band gap by using the carrier dependent effective mass $m_e(n_e)$ determined in section \ref{sec:2.2}. The data points in figure \ref{fig:4} show the band-gap values, determined via ellipsometry, plotted against the Hall carrier concentrations. The points lie some distance from the relationship predicted by equation \ref{eqn:5}. The apparent reduction in the real band-gap values is due the re-normalization effects of many body electron-electron, electron-ion and electron-hole interactions. Lu \textit{et. al} \cite{Lu2007} have shown that the total energy shift due to re-normalization can be estimated by parameterising the detailed model described by $Jain$ \textit{et. al} \cite{Jain1990, Jain1991} according to 
+\begin{equation}
+\label{eqn:7}
+E_R = An_e^{1/3} + Bn_e^{1/4} + Cn_e^{1/2}
+\end{equation}
+where $E_R$ is negative with respect to $E_G$. The $n_e^{1/3}$, $n_e^{1/4}$ and $n_e^{1/2}$ dependencies correspond to the exchange energy of free electrons, their correlation energy and the electron-ion interaction energy respectively. The coefficients $A$, $B$, and $C$, quantify the strength of each of these three dependencies. The coefficient values and a value for $E_{G0}$, was extracted using the established minimisation procedure. Table \ref{tab:1} shows the extracted values and comparative values for n-type ZnO thin-films. The strength of the $n_e^{1/3}$ dependence is roughly three times than that reported for Al doped ZnO but vales for the other two coefficients are consistent \cite{Lu2007}.
+\begin{figure}[ht]
+\vspace{-1cm}
+\centering
+\includegraphics[width = 1\columnwidth]{figure5.png}
+\caption{\label{fig:4} a) Ellipsometry extracted band gap values, $E_G$, plotted with respect to the carrier concentration determined by Hall measurements. The Burstein-Moss relation ($E_p$), even once non-parabolicity is accounted for ($E_{np}$), is insufficient to predict the observed relationship - band gap values being significantly lower than expected. The incorporation of renormalization effects permits the data to be fitted. b) The total renormalization energy and each of its subcomponents are shown shown. The amplitude of these components is calculated empirically via a Monte-Carlo fitting procedure using the model proposed by \cite{Jain1990}. }
+\end{figure}
+
+\begin{table}[bt]
+\centering
+\begin{tabularx}{\columnwidth}{ >{\setlength\hsize{1\hsize}\raggedright}X>{\setlength\hsize{1\hsize}\centering}X@{} >{\setlength\hsize{1\hsize}\centering}X }
+  \hline\hline
+Parameter 1 & Extracted Value & Copmparison \cite{Lu2007} \tabularnewline
+\hline
+$A$ ($\times10^{-8}$ eV.cm)  & $2.1\pm0.8$  & 0.69 \tabularnewline
+$B$ ($\times10^{-7}$ eV.cm$^{3/2}$) & $3.0\pm2.6$  &  1.6 \tabularnewline
+$C$ ($\times10^{-7}$ eV.cm$^{3/4}$) &  $8.7\pm1.5$  & 7.76 \tabularnewline
+$E_{G0}$ (eV) & $3.41\pm0.01$ & - \tabularnewline
+\hline\hline
+\end{tabularx}
+\caption{\label{tab:1} Parameter values extracted from the downhill-simplex fit of equation \ref{eqn:7} to the experimental data shown in figure \ref{fig:4}. $E_G$ values were extracted from fits to ellipsometry spectra taken in the vicinity of the band gap and $n_e$ values were determined by Hall measurements. The coefficients A, B and C correspond to the amplitudes of the separate $n_e^{1/3}$, $n_e^{1/4}$, $n_e^{1/2}$ dependencies respectively of the renormalisation effects. }
+\end{table}
+\section{Mapping of compositional dependence}
+\label{sec:2.3}
+
+Film thickness profiles were determined for the combinatorial ZnO:Si and SiO$_{2}$ samples. The $\%$ wt. SiO$_{2}$ content at each point over the combinatorial sample was estimated according to
+\begin{equation}
+\label{eqn:8}
+x = \frac{\Gamma_{B}d_{B}}{\Gamma_Ad_A+\Gamma_{B}d_{B}}\times100\%
+\end{equation}
+where $\Gamma_A$ and $\Gamma_B$ are the bulk densities of ZnO and SiO$_{2}$ respectively and $d_A$ and $d_B$ are the corresponding thicknesses, $d$, of the ZnO and SiO$_{2}$ films. The carrier concentration profile for the combinatorial sample was calculated from extracted $\varepsilon_{\infty}^{1/2}\omega_p$ values according to equation \ref{eqn:1} and using the non-parabolic effective mass relationship, $m_e(n_e)$, determined in section \ref{sec:2.2}. The corresponding mobility profile was calculated using
+\begin{equation}
+\label{eqn:9}
+\mu_e=\frac{1}{n_e^SR_Sde}
+\end{equation}
+where $R_S$ are the sheet resistance values obtained directly from 4 point probe measurements. Figure \ref{fig:5} shows the three dimensional contour profiles of $n_e$ and $\mu_e$ across the surface of the combinatorial sample. In both cases, a maximal ridge, corresponding to $n_e\sim 4.5\times10^{20}$ cm$^{-3}$ an $\mu_e \sim 16$ cm$^2$V$^{-1}$s$^{-1}$, runs diagonally across the sample. By superimposing the contour distribution of $\%$. (dotted black contour lines) a very strong correlation between carrier concentration and composition becomes apparent, the maximum $n_e$ and $\mu_e$ values corresponding to a value of $x=0.65\%$ and a minimum resistivity of $8.6\times10^{-4}$ $\Omega$.cm.
+\begin{figure}[ht!]
+\centering
+\includegraphics[width = 1\columnwidth]{figure2.png}
+\caption{\label{fig:5} 3D contour plots of the carrier concentration and mobility over the combinatorial sample. Al values were extracted using the automated spectrophotometric mapping procedure. The (- - -) contour lines show an overlay of the \% wt. SiO$_{2}$ composition.}
+\end{figure}
+
+By plotting the distributions of $n_e$ and $\mu_e$ with respect to $x$ the compositional dependence can be observed directly, see figure \ref{fig:6}. Here the strength of the combinatorial analysis is fully appreciated by its ability to generate continuous, non-ambiguous distributions of the material's electrical behaviour and shows that it is highly sensitive to the composition - the resistivity spanning over three orders of magnitude within the compositional range $x = 0 - 0.65\%$. Furthermore, the uncertainty in the optimum value of $x$, that minimises the resistivity, is significantly reduced when compared to the multi-sample analyses that are commonly reported. 
+\begin{figure}[bt!]
+\centering
+\includegraphics[width = 1\columnwidth]{figure_6.png}
+\caption{\label{fig:6} Distributions of carrier concentration, mobility and resistivity with respect to \% wt. SiO$_{2}$ content. The maximum values for $n_e$ ($4.4\times10^{20}$ cm$^{-3}$) and $\mu_{e}$ ($16.5$ cm$^{2}$V$^{-1}$s$^{-1}$) coincide with a composition of $0.65$\% wt. SiO$_{2}$ and correspond to a minimum resistivity of $8.6$ $\Omega$.cm. The solid straight line (\textcolor{red}{\textbf{---}}) in the top plot shows the maximum theoretical carrier concentration achievable if every Si atom incorporated onto a zinc site contributes two free electrons to the system.}
+\end{figure}
+
+The solid straight line in the $n_e$ vs $x$ plot indicates the relationship predicted for  a $100\%$ doping efficiency, i.e. where every Si atom incorporated into film substitutionally replaces a Zn atom and contributes two free electrons to the system. For low values of $x$, i.e. in the range $x=0 - 0.5\%$, this relationship is adhered to. However as $x$ increases further the doping efficiency decreases rapidly and the carrier concentration is limited to $3-4\times10$ cm$^{-3}$ for compositions up to $10\%$ wt. SiO$_{2}$. After the optimum value of $x$ is reached the mobility drops off steeply and approaches a value of zero for values of $x$ beyond $6\%$. This suggests that as $x$ is increased beyond the optimum composition, Si is no longer incorporated into the film as a substitutional dopant and instead acts to increase the scattering of the free carriers, existing as an interstitial impurities or forming segregated Si-O phases at the grain boundaries. 
+
+
+
+\subsection{Scattering}
+\label{sec:2.4}
+\begin{figure}[ht]
+\centering
+\includegraphics[width = 1\columnwidth]{figure7.png}
+\caption{\label{fig:7} Relationship between $n_e$ and $\mu_e$ values extracted from the automated spectrophotometric mapping procedure. All data points have compositions below and up to the optimum value of $0.65\%$ wt. SiO$_{2}$. The line (\textcolor{blue}{\textbf{---}}) shows the fit achieved to the data using equations \ref{eqn:10}-\ref{eqn:14}. The parameter values $n_t = 1.7\times10^{14}$ cm$^2$, $L = 40$ nm, $\alpha=25$ eV and $\beta = 0.54$ were extracted from a downhill-simplex fitting procedure \cite{Nelder1965}. An estimated value of $\mu_{ii} = 40$ cm$^2$V$^{-1}$s$^{-1}$ was chosen for the fitting but the extracted values were shown to be relatively independent of $\mu_{ii}$ in the range $20 - 100$ cm$^2$V$^{-1}$s$^{-1}$.}
+\end{figure}
+The behaviour of carrier mobility can be described further by considering its direct relationship with the carrier concentration. Figure \ref{fig:7} shows that by plotting $\mu_e$ versus $n_e$ for all data points in the range $0<x<0.65\%$ a well defined, unambiguous relationship is determined. The red data points correspond to compositions $x<0.65\%$. Within this distribution, and for carrier concentrations below $2.5\times10$ cm$^{-3}$ the mobility of the free carriers can be described in terms of the grain barrier limited transport  model proposed by  Seto $et. al$ \cite{Seto1975}. The model assumes that at the grain boundaries a population of filled trap states exist within the band gap. This causes the conduction band to bend upwards at each grain boundary forming a barrier to charge transport. The inter-grain mobility, $\mu_B$ of free carriers is therefore limited by thermal processes according to 
+\begin{equation}
+\label{eqn:10}
+\mu_{ig} = \mu_0\exp(-\frac{\Phi_B}{k_BT})
+\end{equation}
+where $\Phi_B$ is the barrier height at the grain boundary and is related directly to the carrier concentration according to
+\begin{equation}
+\label{eqn:11}
+\Phi_B=\frac{e^2n_t}{8\varepsilon_{\infty}\varepsilon_0n_e}
+\end{equation}
+where $n_t$ is the trap density. The pre-factor $\mu_0$ is the internal mobility of the grain, expressed as
+\begin{equation}
+\label{eqn:12}
+\mu_0=\frac{eL}{\sqrt{2\pi m_ek_BT}}
+\end{equation}
+where $L$ is the grain size. It is necessary to extend the Seto model in the case of degenerately doped ZnO to account for the tunnelling of carriers through the barrier $\Phi_B$. As the carrier concentration increases the Fermi level rises towards the top of the barrier while the barrier height decreases proportionally to $1/n_e$. Following the onset of tunnelling the effective carrier mobility increases exponentially with respect to carrier concentration. The increase in mobility is eventually limited by other scattering processes, for example ionized-impurity scattering. A semi-empirical relationship the mobility due to the tunnelling of free carriers , $\mu_t$ can be expressed according to
+\begin{equation}
+\label{eqn:13}
+\mu_t = \frac{\mu_{ii}-\mu_{ig}}{1+\exp[-\frac{1}{\alpha}(\Delta_{BM}+E_R-\beta\Phi_B)}
+\end{equation}
+where the factor $\alpha$ accounts for the sharpness of the onset in tunnelling and is likely to be related to the depletion width of the grain boundary. A second empirical factor, $\beta$ approximates any extra functional dependence of $\Phi_B$ on $n_t$ which is likely vary with respect to $n_e$. The effective mobility may therefore be expressed as the sum of the inter-grain and tunnel mobilities according to
+\begin{equation}
+\label{eqn:14}
+\mu_{eff} = \mu_{ig}+\mu_{t}
+\end{equation}
+Figure \ref{fig:7} shows the corresponding the fit of this extended model to the data. An extracted value of $n_t = 1.79\times10^{14}$ cm$^{-3}$ is over two orders of magnitude greater than that reported for reactively sputtered, undoped ZnO films \cite{Carcia2003} and an order of magnitude greater than that for Al doped ZnO films \cite{Shigesato2003}. This is reflected in the relatively low optimum mobility values of $\sim16$ cm$^{2}$V$^{-1}$s$^{-1}$ which is typically half that of Al doped ZnO films. The reduction of the level trap densities at the grain boundaries is therefore key to the improvement of carrier mobility in Si doped ZnO films. This is likely to be achieved through further investigations of the effect of growth parameters, i.e. substrate temperature and sputter pressure. Based on the model used in this work, a reduction of $n_t$ by $\sim20\%$ could yield a doubling of the mobility.
+
+
+\section{Conclusions}
+\label{sec:4}
+A consideration of the non-parabolicity of the conduction band for Si doped ZnO has yeilded estimates for the values of the band minimum effective mass, $m_{e0} =0.35m_0$, and the non-parabolicity factor, $C=0.3$ eV$^{-1}$. The non-parabolicity contributes to a reduction in the expected Burstein-Moss shift of the optical band-gap at carrier concentrations beyond $10^{20}$ cm$^{-3}$. Further reductions in the band-gap arises from the renormalization effects which are dominated by electron-electron and electron-ion interactions. For Si doped films the component of the magnitude of these effects are significantly greater than that reported for sputtered Al doped ZnO films.
+
+The combinatorial methodology employed within this work allows the relationship between composition and the electrical behaviour to be determined with excellent accuracy, with a continuous distributions between $n_e$, $\mu_e$, $\rho$ and $\%$ wt. SiO$_{2}$ being determined. Furthermore, the extraction of all data from a single sample ensures that a high level of consistency between each data point is achieved compared with measurements taken over a series of separately deposited samples. Maximum values of $4.5\times10^{20}$ cm$^{-3}$ and $16$ cm$^{2}$V$^{-1}$s$^{-1}$ were achieved for the carrier concentration and mobility respectively, at an optimial composition of $x =0.65\%$ wt. SiO$_2$, and this corresponding to a minimum resistivity of $8.7\times10^{-4}$ $\Omega$.cm.
+
+The model of grain boundary scattering proposed by Seto $et.$ $al$ \cite{Seto1975} has been extended to include the effects of tunneling through grain boundaries. The model generates a good agreement for the observed $\mu_e$ versus $n_e$ behavious at compositions up to the optimum value of $x$. The model highlights a potential route to improving carrier mobility, i.e. by reducing the density of trap states that exist at the grain boundaries.
+
+Above the optimum composition a different dependence is observed to that below it. This is thought to be due to the increased density of trap states associated with the incorporation of excess Si into the films.
+
+\section*{Acknowledgements}
+The authors are grateful to Dr. Tim Veal for useful discussions concerning the work and to Vincent Vasey for technical assistance. This work was funded by EPSRC, grant number EP/F029624.
+
+
+\section*{References}
+
+\bibliographystyle{model1a-num-names}
+\bibliography{ref}
+
+
+\end{document}

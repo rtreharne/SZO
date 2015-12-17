@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 1.9.aux
+The style file: model1a-num-names.bst
+Database file #1: ref.bib
+Warning--I didn't find a database entry for ""
+Warning--empty journal in Urbach1953
+Warning--empty year in Urbach1953; set to ????
+Warning--empty journal in Ruske2009
+Warning--empty year in Ruske2009; set to ????
+You've used 30 entries,
+            2600 wiz_defined-function locations,
+            804 strings with 10213 characters,
+and the built_in function-call counts, 18266 in all, are:
+= -- 1325
+> -- 969
+< -- 15
++ -- 365
+- -- 333
+* -- 2362
+:= -- 2835
+add.period$ -- 31
+call.type$ -- 30
+change.case$ -- 231
+chr.to.int$ -- 30
+cite$ -- 34
+duplicate$ -- 1033
+empty$ -- 1080
+format.name$ -- 421
+if$ -- 3198
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 257
+newline$ -- 96
+num.names$ -- 120
+pop$ -- 243
+preamble$ -- 1
+purify$ -- 258
+quote$ -- 0
+skip$ -- 285
+stack$ -- 0
+substring$ -- 1004
+swap$ -- 999
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 267
+warning$ -- 4
+while$ -- 131
+width$ -- 0
+write$ -- 307
+(There were 5 warnings)

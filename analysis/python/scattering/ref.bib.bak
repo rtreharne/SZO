@@ -1,0 +1,52 @@
+% This file was created with JabRef 2.7b.
+% Encoding: UTF-8
+
+@ARTICLE{Baccarani1978,
+  author = {Baccarani, G and Ricco, B and Spadini, G},
+  title = {Transport properties of polycrystalline silicon films},
+  journal = {J. Appl. Phys.},
+  year = {1978},
+  volume = {49},
+  pages = {5565},
+  file = {:/home/treharne/Documents/library/1978/Baccarani1978.pdf:PDF},
+  owner = {treharne},
+  timestamp = {2013.05.02}
+}
+
+@ARTICLE{Oertel1999,
+  author = {Oertel, J. and Ellmer, K. and Bohne, W. and R{\"o}hrich, J. and Tributsch,
+	H.},
+  title = {{Growth of n-type polycrystalline pyrite (FeS$_{2}$) films by metalorganic
+	chemical vapour deposition and their electrical characterization}},
+  journal = {J. Cryst. Growth},
+  year = {1999},
+  volume = {198},
+  pages = {1205--1210},
+  file = {:/home/treharne/Documents/library/1999/Oertel1999.pdf:PDF},
+  owner = {treharne},
+  publisher = {Elsevier},
+  timestamp = {2013.05.02}
+}
+
+@ARTICLE{Seto1975,
+  author = {Seto, J. Y. W.},
+  title = {The electrical properties of polycrystalline silicon films},
+  journal = {J. Appl. Phys.},
+  year = {1975},
+  volume = {46},
+  pages = {5247--5254},
+  number = {12},
+  file = {:/home/treharne/Documents/library/1975/Seto1975.pdf:PDF},
+  owner = {treharne},
+  publisher = {AIP},
+  timestamp = {2013.05.02}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

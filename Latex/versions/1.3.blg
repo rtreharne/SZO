@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 1.3.aux
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: 1.3Notes.bib
+Database file #2: ref.bib
+Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Lu"
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+Warning--missing journal in Urbach1953
+Warning--empty year in Urbach1953
+Warning--missing journal in Ruske2009
+Warning--empty year in Ruske2009
+You've used 16 entries,
+            5847 wiz_defined-function locations,
+            1704 strings with 16900 characters,
+and the built_in function-call counts, 14024 in all, are:
+= -- 839
+> -- 359
+< -- 119
++ -- 119
+- -- 103
+* -- 2112
+:= -- 1385
+add.period$ -- 14
+call.type$ -- 16
+change.case$ -- 57
+chr.to.int$ -- 24
+cite$ -- 20
+duplicate$ -- 1364
+empty$ -- 1011
+format.name$ -- 206
+if$ -- 2720
+int.to.chr$ -- 1
+int.to.str$ -- 23
+missing$ -- 186
+newline$ -- 94
+num.names$ -- 42
+pop$ -- 621
+preamble$ -- 1
+purify$ -- 68
+quote$ -- 0
+skip$ -- 505
+stack$ -- 0
+substring$ -- 316
+swap$ -- 1231
+text.length$ -- 40
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 207
+warning$ -- 5
+while$ -- 47
+width$ -- 0
+write$ -- 159
+(There were 7 warnings)

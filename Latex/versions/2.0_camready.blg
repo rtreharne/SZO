@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: 2.0_camready.aux
+The style file: model1a-num-names.bst
+Database file #1: ref.bib
+You've used 32 entries,
+            2600 wiz_defined-function locations,
+            823 strings with 10472 characters,
+and the built_in function-call counts, 19553 in all, are:
+= -- 1424
+> -- 1015
+< -- 16
++ -- 382
+- -- 348
+* -- 2540
+:= -- 3016
+add.period$ -- 33
+call.type$ -- 32
+change.case$ -- 244
+chr.to.int$ -- 32
+cite$ -- 32
+duplicate$ -- 1113
+empty$ -- 1172
+format.name$ -- 444
+if$ -- 3433
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 276
+newline$ -- 102
+num.names$ -- 128
+pop$ -- 234
+preamble$ -- 1
+purify$ -- 275
+quote$ -- 0
+skip$ -- 308
+stack$ -- 0
+substring$ -- 1103
+swap$ -- 1092
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 285
+warning$ -- 0
+while$ -- 142
+width$ -- 0
+write$ -- 329

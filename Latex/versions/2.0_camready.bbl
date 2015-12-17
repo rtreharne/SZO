@@ -1,0 +1,194 @@
+\begin{thebibliography}{32}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Minami(2005)}]{Minami2005}
+\bibinfo{author}{T.~Minami}, \bibinfo{journal}{Semicond. Sci. Technol.}
+  \bibinfo{volume}{20} (\bibinfo{year}{2005}) \bibinfo{pages}{S35}.
+%Type = Article
+\bibitem[{Hu and Gordon(1991)}]{Gordon1991}
+\bibinfo{author}{J.~Hu}, \bibinfo{author}{R.~Gordon}, \bibinfo{journal}{Solar
+  Cells} \bibinfo{volume}{30} (\bibinfo{year}{1991}) \bibinfo{pages}{437--450}.
+%Type = Article
+\bibitem[{Treharne and Durose(2010)}]{Treharne2010}
+\bibinfo{author}{R.~E. Treharne}, \bibinfo{author}{K.~Durose},
+  \bibinfo{journal}{Thin Solid Films} \bibinfo{volume}{519}
+  (\bibinfo{year}{2010}) \bibinfo{pages}{7579--7582}.
+%Type = Article
+\bibitem[{Rousset et~al.(2009)Rousset, Saucedo, and Lincot}]{Lincot2009}
+\bibinfo{author}{J.~Rousset}, \bibinfo{author}{E.~Saucedo},
+  \bibinfo{author}{D.~Lincot}, \bibinfo{journal}{Chem. Mater.}
+  \bibinfo{volume}{21} (\bibinfo{year}{2009}) \bibinfo{pages}{534--540}.
+%Type = Article
+\bibitem[{Chalker et~al.(2012)Chalker, MArshall, Romani, Roberts, Joseph,
+  Irvine, Lamb, Clayton, Andrew, and Williams}]{Chalker2013}
+\bibinfo{author}{P.~R. Chalker}, \bibinfo{author}{P.~A. MArshall},
+  \bibinfo{author}{S.~Romani}, \bibinfo{author}{J.~Roberts},
+  \bibinfo{author}{W.~Joseph}, \bibinfo{author}{S.~J.~C. Irvine},
+  \bibinfo{author}{D.~Lamb}, \bibinfo{author}{A.~Clayton},
+  \bibinfo{author}{J.~Andrew}, \bibinfo{author}{P.~A. Williams},
+  \bibinfo{journal}{J. Vac. Sci. Technol. A} \bibinfo{volume}{31}
+  (\bibinfo{year}{2012}) \bibinfo{pages}{01A120--01A120}.
+%Type = Article
+\bibitem[{Myong et~al.(1997)Myong, Baik, Lee, Cho, and Lim}]{Myong1997}
+\bibinfo{author}{S.~Y. Myong}, \bibinfo{author}{S.~J. Baik},
+  \bibinfo{author}{C.~H. Lee}, \bibinfo{author}{W.~Y. Cho},
+  \bibinfo{author}{K.~S. Lim}, \bibinfo{journal}{Jpn. J. App. Phys.}
+  \bibinfo{volume}{36} (\bibinfo{year}{1997}) \bibinfo{pages}{L1078}.
+%Type = Article
+\bibitem[{Park et~al.(2006)Park, Ikegami, Ebihara, Shin, Ikegami, Ebihara, and
+  Shin}]{Shin2006}
+\bibinfo{author}{S.-M. Park}, \bibinfo{author}{T.~Ikegami},
+  \bibinfo{author}{K.~Ebihara}, \bibinfo{author}{S.-M. Shin, Paik-Kyun~Park},
+  \bibinfo{author}{T.~Ikegami}, \bibinfo{author}{K.~Ebihara},
+  \bibinfo{author}{P.-K. Shin}, \bibinfo{journal}{App. Surf. Sci.}
+  \bibinfo{volume}{253} (\bibinfo{year}{2006}) \bibinfo{pages}{1522--1527}.
+%Type = Article
+\bibitem[{Minami et~al.(2006)Minami, Miyata, Ohtani, and
+  Mochizuki}]{Minami2006}
+\bibinfo{author}{T.~Minami}, \bibinfo{author}{T.~Miyata},
+  \bibinfo{author}{Y.~Ohtani}, \bibinfo{author}{Y.~Mochizuki},
+  \bibinfo{journal}{Jpn. J. App. Phys.} \bibinfo{volume}{45}
+  (\bibinfo{year}{2006}) \bibinfo{pages}{L409--L412}.
+%Type = Article
+\bibitem[{Ellmer(2001)}]{Ellmer2001}
+\bibinfo{author}{K.~Ellmer}, \bibinfo{journal}{J. Phys. D: Appl. Phys}
+  \bibinfo{volume}{34} (\bibinfo{year}{2001}) \bibinfo{pages}{3097--3108}.
+%Type = Article
+\bibitem[{Treharne et~al.(2012)Treharne, Hutchings, Lamb, Irvine, Lane, and
+  Durose}]{Treharne2012}
+\bibinfo{author}{R.~E. Treharne}, \bibinfo{author}{K.~Hutchings},
+  \bibinfo{author}{D.~A. Lamb}, \bibinfo{author}{S.~J.~C. Irvine},
+  \bibinfo{author}{D.~Lane}, \bibinfo{author}{K.~Durose}, \bibinfo{journal}{J.
+  Phys. D: Appl. Phys} \bibinfo{volume}{45} (\bibinfo{year}{2012})
+  \bibinfo{pages}{335102}.
+%Type = Article
+\bibitem[{Mergel and Qiao(2002)}]{Mergel2002}
+\bibinfo{author}{D.~Mergel}, \bibinfo{author}{Z.~Qiao}, \bibinfo{journal}{J.
+  Phys. D: Appl. Phys} \bibinfo{volume}{35} (\bibinfo{year}{2002})
+  \bibinfo{pages}{794}.
+%Type = Article
+\bibitem[{Ashkenov et~al.(2003)Ashkenov, Mbenkum, Bundesmann, Riede, Lorenz,
+  Spemann, Kaidashev, Kasic, Schubert, and Grundmann}]{Ashkenov2003}
+\bibinfo{author}{N.~Ashkenov}, \bibinfo{author}{B.~N. Mbenkum},
+  \bibinfo{author}{C.~Bundesmann}, \bibinfo{author}{V.~Riede},
+  \bibinfo{author}{M.~Lorenz}, \bibinfo{author}{D.~Spemann},
+  \bibinfo{author}{E.~M. Kaidashev}, \bibinfo{author}{A.~Kasic},
+  \bibinfo{author}{M.~Schubert}, \bibinfo{author}{M.~Grundmann},
+  \bibinfo{journal}{J. Appl. Phys.} \bibinfo{volume}{93} (\bibinfo{year}{2003})
+  \bibinfo{pages}{126--133}.
+%Type = Article
+\bibitem[{Nelder and Mead(1965)}]{Nelder1965}
+\bibinfo{author}{J.~A. Nelder}, \bibinfo{author}{R.~Mead},
+  \bibinfo{journal}{The Computer Journal} \bibinfo{volume}{7}
+  (\bibinfo{year}{1965}) \bibinfo{pages}{308--313}.
+%Type = Book
+\bibitem[{Macleod(1986)}]{Macleod1986}
+\bibinfo{author}{H.~A. Macleod}, \bibinfo{title}{{Thin-Film Optical Filters}},
+  \bibinfo{publisher}{Adam Hilger Ltd}, \bibinfo{year}{1986}.
+%Type = Article
+\bibitem[{Urbach(1953)}]{Urbach1953}
+\bibinfo{author}{F.~Urbach}, \bibinfo{journal}{Phys. Rev.} \bibinfo{volume}{92}
+  (\bibinfo{year}{1953}) \bibinfo{pages}{1324}.
+%Type = Article
+\bibitem[{Herzinger et~al.(1998)Herzinger, Johs, McGahan, Woollam, and
+  Paulson}]{Paulson1998}
+\bibinfo{author}{C.~Herzinger}, \bibinfo{author}{B.~Johs},
+  \bibinfo{author}{W.~McGahan}, \bibinfo{author}{J.~Woollam},
+  \bibinfo{author}{W.~Paulson}, \bibinfo{journal}{J. Appl. Phys.}
+  \bibinfo{volume}{83} (\bibinfo{year}{1998}) \bibinfo{pages}{3323--3336}.
+%Type = Article
+\bibitem[{Johs et~al.(1999)Johs, Woolllam, Herzinger, Hilfiker, Synowicki, and
+  Bungay}]{Johs1999}
+\bibinfo{author}{B.~Johs}, \bibinfo{author}{J.~A. Woolllam},
+  \bibinfo{author}{C.~M. Herzinger}, \bibinfo{author}{J.~Hilfiker},
+  \bibinfo{author}{R.~Synowicki}, \bibinfo{author}{C.~L. Bungay},
+  \bibinfo{journal}{Crit. Rev. Opt. Sci.} \bibinfo{volume}{CR72}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{29--58}.
+%Type = Article
+\bibitem[{Srikant and Clarke(1998)}]{Srikant1998}
+\bibinfo{author}{V.~Srikant}, \bibinfo{author}{D.~R. Clarke},
+  \bibinfo{journal}{J. Appl. Phys.} \bibinfo{volume}{83} (\bibinfo{year}{1998})
+  \bibinfo{pages}{5447--5451}.
+%Type = Article
+\bibitem[{Pisarkiewicz and Kolodziej(1990)}]{Pisarkiewicz1990}
+\bibinfo{author}{T.~Pisarkiewicz}, \bibinfo{author}{A.~Kolodziej},
+  \bibinfo{journal}{Phys. Stat. Sol. B} \bibinfo{volume}{158}
+  (\bibinfo{year}{1990}) \bibinfo{pages}{K5--K8}.
+%Type = Phdthesis
+\bibitem[{Mendelsberg(2009)}]{Mendelsberg2009}
+\bibinfo{author}{R.~J. Mendelsberg}, \bibinfo{title}{{Photoluminescence of ZnO
+  grown by eclipse pulsed laser deposition}}, Ph.D. thesis, University of
+  Canterbufy, New Zealand, \bibinfo{year}{2009}.
+%Type = Article
+\bibitem[{Mendelsberg et~al.(2012)Mendelsberg, Zhu, and Anders}]{Anders2012}
+\bibinfo{author}{R.~J. Mendelsberg}, \bibinfo{author}{Y.~Zhu},
+  \bibinfo{author}{A.~Anders}, \bibinfo{journal}{J. Phys. D: Appl. Phys}
+  \bibinfo{volume}{45} (\bibinfo{year}{2012}) \bibinfo{pages}{425302}.
+%Type = Article
+\bibitem[{Ruske et~al.(2009)Ruske, Pflug, Sittinger, Szyszka, Greiner, and
+  Rech}]{Ruske2009}
+\bibinfo{author}{F.~Ruske}, \bibinfo{author}{A.~Pflug},
+  \bibinfo{author}{V.~Sittinger}, \bibinfo{author}{B.~Szyszka},
+  \bibinfo{author}{D.~Greiner}, \bibinfo{author}{B.~Rech},
+  \bibinfo{journal}{Thin Solid Films} \bibinfo{volume}{518}
+  (\bibinfo{year}{2009}) \bibinfo{pages}{1289--1293}. \bibinfo{note}{Article in
+  press - Thin Solid Films}.
+%Type = Article
+\bibitem[{Burstein(1954)}]{Burstein1954}
+\bibinfo{author}{E.~Burstein}, \bibinfo{journal}{Phys. Rev.}
+  \bibinfo{volume}{93} (\bibinfo{year}{1954}) \bibinfo{pages}{632--633}.
+%Type = Article
+\bibitem[{Moss(1954)}]{Moss1954}
+\bibinfo{author}{T.~S. Moss}, \bibinfo{journal}{Proc. Phys. Soc. B}
+  \bibinfo{volume}{67} (\bibinfo{year}{1954}) \bibinfo{pages}{775}.
+%Type = Article
+\bibitem[{Beni and Rice(1978)}]{Beni1979}
+\bibinfo{author}{G.~Beni}, \bibinfo{author}{T.~Rice}, \bibinfo{journal}{Phys.
+  Rev. B} \bibinfo{volume}{18} (\bibinfo{year}{1978}) \bibinfo{pages}{768}.
+%Type = Article
+\bibitem[{Reynolds et~al.(1996)Reynolds, Look, and Jogai}]{Reynolds1996}
+\bibinfo{author}{D.~C. Reynolds}, \bibinfo{author}{D.~C. Look},
+  \bibinfo{author}{B.~Jogai}, \bibinfo{journal}{Solid State Comm.}
+  \bibinfo{volume}{99} (\bibinfo{year}{1996}) \bibinfo{pages}{873--875}.
+%Type = Article
+\bibitem[{Jain et~al.(1990)Jain, McGregor, and Roulston}]{Jain1990}
+\bibinfo{author}{S.~Jain}, \bibinfo{author}{J.~McGregor},
+  \bibinfo{author}{D.~Roulston}, \bibinfo{journal}{J. Appl. Phys.}
+  \bibinfo{volume}{68} (\bibinfo{year}{1990}) \bibinfo{pages}{3747--3749}.
+%Type = Article
+\bibitem[{Lu et~al.(2007)Lu, Fujita, Kawaharamura, Nishinaka, Kamada, Ohshima,
+  Ye, Zeng, Zhang, Zhu et~al.}]{Lu2007}
+\bibinfo{author}{J.~Lu}, \bibinfo{author}{S.~Fujita},
+  \bibinfo{author}{T.~Kawaharamura}, \bibinfo{author}{H.~Nishinaka},
+  \bibinfo{author}{Y.~Kamada}, \bibinfo{author}{T.~Ohshima},
+  \bibinfo{author}{Z.~Ye}, \bibinfo{author}{Y.~Zeng},
+  \bibinfo{author}{Y.~Zhang}, \bibinfo{author}{L.~Zhu}, et~al.,
+  \bibinfo{journal}{J. Appl. Phys.} \bibinfo{volume}{101}
+  (\bibinfo{year}{2007}) \bibinfo{pages}{083705--083705}.
+%Type = Article
+\bibitem[{Jain and Roulston(1991)}]{Jain1991}
+\bibinfo{author}{S.~C. Jain}, \bibinfo{author}{D.~J. Roulston},
+  \bibinfo{journal}{Sol. State. Elec.} \bibinfo{volume}{{34}}
+  (\bibinfo{year}{{1991}}) \bibinfo{pages}{{453--465}}.
+%Type = Article
+\bibitem[{Seto(1975)}]{Seto1975}
+\bibinfo{author}{J.~Y.~W. Seto}, \bibinfo{journal}{J. Appl. Phys.}
+  \bibinfo{volume}{46} (\bibinfo{year}{1975}) \bibinfo{pages}{5247--5254}.
+%Type = Article
+\bibitem[{Carcia et~al.(2003)Carcia, McLean, Reilly, and Nunes}]{Carcia2003}
+\bibinfo{author}{P.~F. Carcia}, \bibinfo{author}{R.~S. McLean},
+  \bibinfo{author}{M.~H. Reilly}, \bibinfo{author}{G.~Nunes},
+  \bibinfo{journal}{App. Phys. Lett.} \bibinfo{volume}{82}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{1117--1119}.
+%Type = Article
+\bibitem[{Kon et~al.(2003)Kon, Song, Shigesato, Frach, Ohno, and
+  Suzuki}]{Shigesato2003}
+\bibinfo{author}{M.~Kon}, \bibinfo{author}{P.~Song},
+  \bibinfo{author}{Y.~Shigesato}, \bibinfo{author}{P.~Frach},
+  \bibinfo{author}{S.~Ohno}, \bibinfo{author}{K.~Suzuki},
+  \bibinfo{journal}{Jpn. J. App. Phys.} \bibinfo{volume}{42}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{263--269}.
+
+\end{thebibliography}
